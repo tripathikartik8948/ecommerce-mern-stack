@@ -7,7 +7,7 @@ const AdminOrders = () => {
 
   useEffect(() => {
     const fetchOrders = async () => {
-      const res = await fetch('/api/orders', {
+      const res = await fetch('https://ecommerce-mern-stack-1-vzlu.onrender.com/orders', {
         headers: { Authorization: `Bearer ${user.token}` }
       });
       const data = await res.json();
@@ -17,7 +17,7 @@ const AdminOrders = () => {
   }, [user]);
 
   const updateStatus = async (id, status) => {
-    const res = await fetch(`/api/orders/${id}/status`, {
+    const res = await fetch(`https://ecommerce-mern-stack-1-vzlu.onrender.com/orders/${id}/status`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${user.token}` },
       body: JSON.stringify({ status })

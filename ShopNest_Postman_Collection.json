@@ -41,7 +41,7 @@
               }
             },
             "url": {
-              "raw": "{{endpoint}}/api/auth/register",
+              "raw": "{{endpoint}}https://ecommerce-mern-stack-1-vzlu.onrender.com/auth/register",
               "host": [
                 "{{endpoint}}"
               ],
@@ -69,7 +69,7 @@
               }
             },
             "url": {
-              "raw": "{{endpoint}}/api/auth/login",
+              "raw": "{{endpoint}}https://ecommerce-mern-stack-1-vzlu.onrender.com/auth/login",
               "host": [
                 "{{endpoint}}"
               ],
@@ -110,7 +110,7 @@
               }
             },
             "url": {
-              "raw": "{{endpoint}}/api/auth/users",
+              "raw": "{{endpoint}}https://ecommerce-mern-stack-1-vzlu.onrender.com/auth/users",
               "host": [
                 "{{endpoint}}"
               ],
@@ -151,7 +151,7 @@
               "raw": "{\r\n    \"name\":\"Shivansh\",\r\n    \"email\": \"user@gmail.com\",\r\n    \"password\": \"pass123\"\r\n}"
             },
             "url": {
-              "raw": "{{endpoint}}/api/products/",
+              "raw": "{{endpoint}}https://ecommerce-mern-stack-1-vzlu.onrender.com/products/",
               "host": [
                 "{{endpoint}}"
               ],
@@ -187,7 +187,7 @@
               "raw": "{\r\n    \"name\":\"Shivansh\",\r\n    \"email\": \"user@gmail.com\",\r\n    \"password\": \"pass123\"\r\n}"
             },
             "url": {
-              "raw": "{{endpoint}}/api/products/69e88d27e51103fdd44cb50c",
+              "raw": "{{endpoint}}https://ecommerce-mern-stack-1-vzlu.onrender.com/products/69e88d27e51103fdd44cb50c",
               "host": [
                 "{{endpoint}}"
               ],
@@ -256,7 +256,7 @@
               ]
             },
             "url": {
-              "raw": "http://localhost:5000/api/products/",
+              "raw": "http://localhost:5000https://ecommerce-mern-stack-1-vzlu.onrender.com/products/",
               "protocol": "http",
               "host": [
                 "localhost"
@@ -268,7 +268,7 @@
                 ""
               ]
             },
-            "description": "Generated from cURL: curl --location 'http://localhost:5000/api/products' \\\r\n--header 'Authorization: Bearer YOUR_TOKEN_HERE' \\\r\n--form 'name=\"Product Name\"' \\\r\n--form 'description=\"Product Description\"' \\\r\n--form 'price=\"99.99\"' \\\r\n--form 'category=\"Electronics\"' \\\r\n--form 'stock=\"50\"' \\\r\n--form 'image=@\"/path/to/image.jpg\"'"
+            "description": "Generated from cURL: curl --location 'http://localhost:5000https://ecommerce-mern-stack-1-vzlu.onrender.com/products' \\\r\n--header 'Authorization: Bearer YOUR_TOKEN_HERE' \\\r\n--form 'name=\"Product Name\"' \\\r\n--form 'description=\"Product Description\"' \\\r\n--form 'price=\"99.99\"' \\\r\n--form 'category=\"Electronics\"' \\\r\n--form 'stock=\"50\"' \\\r\n--form 'image=@\"/path/to/image.jpg\"'"
           },
           "response": []
         },
@@ -313,7 +313,7 @@
               ]
             },
             "url": {
-              "raw": "http://localhost:5000/api/products/69e88d27e51103fdd44cb50c",
+              "raw": "http://localhost:5000https://ecommerce-mern-stack-1-vzlu.onrender.com/products/69e88d27e51103fdd44cb50c",
               "protocol": "http",
               "host": [
                 "localhost"
@@ -325,7 +325,7 @@
                 "69e88d27e51103fdd44cb50c"
               ]
             },
-            "description": "Generated from cURL: curl --location --request PUT 'http://localhost:5000/api/products/PRODUCT_ID' \\\n--header 'Authorization: Bearer YOUR_TOKEN_HERE' \\\n--form 'name=\"Updated Product Name\"' \\\n--form 'description=\"Updated Description\"' \\\n--form 'price=\"149.99\"' \\\n--form 'category=\"Electronics\"' \\\n--form 'stock=\"100\"' \\\n--form 'image=@\"/path/to/image.jpg\"'"
+            "description": "Generated from cURL: curl --location --request PUT 'http://localhost:5000https://ecommerce-mern-stack-1-vzlu.onrender.com/products/PRODUCT_ID' \\\n--header 'Authorization: Bearer YOUR_TOKEN_HERE' \\\n--form 'name=\"Updated Product Name\"' \\\n--form 'description=\"Updated Description\"' \\\n--form 'price=\"149.99\"' \\\n--form 'category=\"Electronics\"' \\\n--form 'stock=\"100\"' \\\n--form 'image=@\"/path/to/image.jpg\"'"
           },
           "response": []
         },
@@ -370,7 +370,7 @@
               ]
             },
             "url": {
-              "raw": "http://localhost:5000/api/products/69e88d27e51103fdd44cb50c",
+              "raw": "http://localhost:5000https://ecommerce-mern-stack-1-vzlu.onrender.com/products/69e88d27e51103fdd44cb50c",
               "protocol": "http",
               "host": [
                 "localhost"
@@ -382,7 +382,7 @@
                 "69e88d27e51103fdd44cb50c"
               ]
             },
-            "description": "Generated from cURL: curl --location --request PUT 'http://localhost:5000/api/products/PRODUCT_ID' \\\n--header 'Authorization: Bearer YOUR_TOKEN_HERE' \\\n--form 'name=\"Updated Product Name\"' \\\n--form 'description=\"Updated Description\"' \\\n--form 'price=\"149.99\"' \\\n--form 'category=\"Electronics\"' \\\n--form 'stock=\"100\"' \\\n--form 'image=@\"/path/to/image.jpg\"'"
+            "description": "Generated from cURL: curl --location --request PUT 'http://localhost:5000https://ecommerce-mern-stack-1-vzlu.onrender.com/products/PRODUCT_ID' \\\n--header 'Authorization: Bearer YOUR_TOKEN_HERE' \\\n--form 'name=\"Updated Product Name\"' \\\n--form 'description=\"Updated Description\"' \\\n--form 'price=\"149.99\"' \\\n--form 'category=\"Electronics\"' \\\n--form 'stock=\"100\"' \\\n--form 'image=@\"/path/to/image.jpg\"'"
           },
           "response": []
         }
@@ -425,7 +425,7 @@
               }
             },
             "url": {
-              "raw": "http://localhost:5000/api/orders",
+              "raw": "http://localhost:5000https://ecommerce-mern-stack-1-vzlu.onrender.com/orders",
               "protocol": "http",
               "host": [
                 "localhost"
@@ -436,7 +436,7 @@
                 "orders"
               ]
             },
-            "description": "Generated from cURL: curl --location 'http://localhost:5000/api/orders' \\\n--header 'Authorization: Bearer YOUR_TOKEN_HERE' \\\n--header 'Content-Type: application/json' \\\n--data '{\n  \"items\": [\n    {\n      \"productId\": \"PRODUCT_ID_1\",\n      \"quantity\": 2,\n      \"price\": 50.00\n    },\n    {\n      \"productId\": \"PRODUCT_ID_2\",\n      \"quantity\": 1,\n      \"price\": 75.00\n    }\n  ],\n  \"totalAmount\": 175.00,\n  \"address\": \"123 Main Street, City, Country, 12345\",\n  \"paymentId\": \"PAYMENT_ID_12345\"\n}'"
+            "description": "Generated from cURL: curl --location 'http://localhost:5000https://ecommerce-mern-stack-1-vzlu.onrender.com/orders' \\\n--header 'Authorization: Bearer YOUR_TOKEN_HERE' \\\n--header 'Content-Type: application/json' \\\n--data '{\n  \"items\": [\n    {\n      \"productId\": \"PRODUCT_ID_1\",\n      \"quantity\": 2,\n      \"price\": 50.00\n    },\n    {\n      \"productId\": \"PRODUCT_ID_2\",\n      \"quantity\": 1,\n      \"price\": 75.00\n    }\n  ],\n  \"totalAmount\": 175.00,\n  \"address\": \"123 Main Street, City, Country, 12345\",\n  \"paymentId\": \"PAYMENT_ID_12345\"\n}'"
           },
           "response": []
         },
@@ -477,7 +477,7 @@
               }
             },
             "url": {
-              "raw": "http://localhost:5000/api/orders",
+              "raw": "http://localhost:5000https://ecommerce-mern-stack-1-vzlu.onrender.com/orders",
               "protocol": "http",
               "host": [
                 "localhost"
@@ -488,7 +488,7 @@
                 "orders"
               ]
             },
-            "description": "Generated from cURL: curl --location 'http://localhost:5000/api/orders' \\\n--header 'Authorization: Bearer YOUR_TOKEN_HERE' \\\n--header 'Content-Type: application/json' \\\n--data '{\n  \"items\": [\n    {\n      \"productId\": \"PRODUCT_ID_1\",\n      \"quantity\": 2,\n      \"price\": 50.00\n    },\n    {\n      \"productId\": \"PRODUCT_ID_2\",\n      \"quantity\": 1,\n      \"price\": 75.00\n    }\n  ],\n  \"totalAmount\": 175.00,\n  \"address\": \"123 Main Street, City, Country, 12345\",\n  \"paymentId\": \"PAYMENT_ID_12345\"\n}'"
+            "description": "Generated from cURL: curl --location 'http://localhost:5000https://ecommerce-mern-stack-1-vzlu.onrender.com/orders' \\\n--header 'Authorization: Bearer YOUR_TOKEN_HERE' \\\n--header 'Content-Type: application/json' \\\n--data '{\n  \"items\": [\n    {\n      \"productId\": \"PRODUCT_ID_1\",\n      \"quantity\": 2,\n      \"price\": 50.00\n    },\n    {\n      \"productId\": \"PRODUCT_ID_2\",\n      \"quantity\": 1,\n      \"price\": 75.00\n    }\n  ],\n  \"totalAmount\": 175.00,\n  \"address\": \"123 Main Street, City, Country, 12345\",\n  \"paymentId\": \"PAYMENT_ID_12345\"\n}'"
           },
           "response": []
         },
@@ -526,7 +526,7 @@
               }
             },
             "url": {
-              "raw": "http://localhost:5000/api/orders/69e89c7ce26672d7f8d0a6ec/status",
+              "raw": "http://localhost:5000https://ecommerce-mern-stack-1-vzlu.onrender.com/orders/69e89c7ce26672d7f8d0a6ec/status",
               "protocol": "http",
               "host": [
                 "localhost"
@@ -539,7 +539,7 @@
                 "status"
               ]
             },
-            "description": "Generated from cURL: curl --location 'http://localhost:5000/api/orders' \\\n--header 'Authorization: Bearer YOUR_TOKEN_HERE' \\\n--header 'Content-Type: application/json' \\\n--data '{\n  \"items\": [\n    {\n      \"productId\": \"PRODUCT_ID_1\",\n      \"quantity\": 2,\n      \"price\": 50.00\n    },\n    {\n      \"productId\": \"PRODUCT_ID_2\",\n      \"quantity\": 1,\n      \"price\": 75.00\n    }\n  ],\n  \"totalAmount\": 175.00,\n  \"address\": \"123 Main Street, City, Country, 12345\",\n  \"paymentId\": \"PAYMENT_ID_12345\"\n}'"
+            "description": "Generated from cURL: curl --location 'http://localhost:5000https://ecommerce-mern-stack-1-vzlu.onrender.com/orders' \\\n--header 'Authorization: Bearer YOUR_TOKEN_HERE' \\\n--header 'Content-Type: application/json' \\\n--data '{\n  \"items\": [\n    {\n      \"productId\": \"PRODUCT_ID_1\",\n      \"quantity\": 2,\n      \"price\": 50.00\n    },\n    {\n      \"productId\": \"PRODUCT_ID_2\",\n      \"quantity\": 1,\n      \"price\": 75.00\n    }\n  ],\n  \"totalAmount\": 175.00,\n  \"address\": \"123 Main Street, City, Country, 12345\",\n  \"paymentId\": \"PAYMENT_ID_12345\"\n}'"
           },
           "response": []
         },
@@ -580,7 +580,7 @@
               }
             },
             "url": {
-              "raw": "http://localhost:5000/api/orders/myorders",
+              "raw": "http://localhost:5000https://ecommerce-mern-stack-1-vzlu.onrender.com/orders/myorders",
               "protocol": "http",
               "host": [
                 "localhost"
@@ -592,7 +592,7 @@
                 "myorders"
               ]
             },
-            "description": "Generated from cURL: curl --location 'http://localhost:5000/api/orders' \\\n--header 'Authorization: Bearer YOUR_TOKEN_HERE' \\\n--header 'Content-Type: application/json' \\\n--data '{\n  \"items\": [\n    {\n      \"productId\": \"PRODUCT_ID_1\",\n      \"quantity\": 2,\n      \"price\": 50.00\n    },\n    {\n      \"productId\": \"PRODUCT_ID_2\",\n      \"quantity\": 1,\n      \"price\": 75.00\n    }\n  ],\n  \"totalAmount\": 175.00,\n  \"address\": \"123 Main Street, City, Country, 12345\",\n  \"paymentId\": \"PAYMENT_ID_12345\"\n}'"
+            "description": "Generated from cURL: curl --location 'http://localhost:5000https://ecommerce-mern-stack-1-vzlu.onrender.com/orders' \\\n--header 'Authorization: Bearer YOUR_TOKEN_HERE' \\\n--header 'Content-Type: application/json' \\\n--data '{\n  \"items\": [\n    {\n      \"productId\": \"PRODUCT_ID_1\",\n      \"quantity\": 2,\n      \"price\": 50.00\n    },\n    {\n      \"productId\": \"PRODUCT_ID_2\",\n      \"quantity\": 1,\n      \"price\": 75.00\n    }\n  ],\n  \"totalAmount\": 175.00,\n  \"address\": \"123 Main Street, City, Country, 12345\",\n  \"paymentId\": \"PAYMENT_ID_12345\"\n}'"
           },
           "response": []
         }
@@ -638,7 +638,7 @@
               }
             },
             "url": {
-              "raw": "http://localhost:5000/api/analytics/",
+              "raw": "http://localhost:5000https://ecommerce-mern-stack-1-vzlu.onrender.com/analytics/",
               "protocol": "http",
               "host": [
                 "localhost"
@@ -650,7 +650,7 @@
                 ""
               ]
             },
-            "description": "Generated from cURL: curl --location 'http://localhost:5000/api/orders' \\\n--header 'Authorization: Bearer YOUR_TOKEN_HERE' \\\n--header 'Content-Type: application/json' \\\n--data '{\n  \"items\": [\n    {\n      \"productId\": \"PRODUCT_ID_1\",\n      \"quantity\": 2,\n      \"price\": 50.00\n    },\n    {\n      \"productId\": \"PRODUCT_ID_2\",\n      \"quantity\": 1,\n      \"price\": 75.00\n    }\n  ],\n  \"totalAmount\": 175.00,\n  \"address\": \"123 Main Street, City, Country, 12345\",\n  \"paymentId\": \"PAYMENT_ID_12345\"\n}'"
+            "description": "Generated from cURL: curl --location 'http://localhost:5000https://ecommerce-mern-stack-1-vzlu.onrender.com/orders' \\\n--header 'Authorization: Bearer YOUR_TOKEN_HERE' \\\n--header 'Content-Type: application/json' \\\n--data '{\n  \"items\": [\n    {\n      \"productId\": \"PRODUCT_ID_1\",\n      \"quantity\": 2,\n      \"price\": 50.00\n    },\n    {\n      \"productId\": \"PRODUCT_ID_2\",\n      \"quantity\": 1,\n      \"price\": 75.00\n    }\n  ],\n  \"totalAmount\": 175.00,\n  \"address\": \"123 Main Street, City, Country, 12345\",\n  \"paymentId\": \"PAYMENT_ID_12345\"\n}'"
           },
           "response": []
         }

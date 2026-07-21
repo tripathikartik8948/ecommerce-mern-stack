@@ -31,7 +31,7 @@ const AddProduct = () => {
     data.append('image', image);
 
     try {
-      const res = await fetch('/api/products', {
+      const res = await fetch('https://ecommerce-mern-stack-1-vzlu.onrender.com/products', {
         method: 'POST',
         headers: { Authorization: `Bearer ${user.token}` },
         body: data

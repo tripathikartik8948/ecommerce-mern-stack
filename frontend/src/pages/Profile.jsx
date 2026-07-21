@@ -15,7 +15,7 @@ const Profile = () => {
     }
     const fetchMyOrders = async () => {
       try {
-        const res = await fetch('/api/orders/myorders', {
+        const res = await fetch('https://ecommerce-mern-stack-1-vzlu.onrender.com/orders/myorders', {
           headers: { Authorization: `Bearer ${user.token}` }
         });
         const data = await res.json();

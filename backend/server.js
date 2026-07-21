@@ -17,11 +17,11 @@ app.use(cors({
 
 app.use(express.json());
 
-app.use('https://ecommerce-mern-stack-1-vzlu.onrender.com/auth', require('./routes/authRoutes'));
-app.use('https://ecommerce-mern-stack-1-vzlu.onrender.com/products', require('./routes/productRoutes'));
-app.use('https://ecommerce-mern-stack-1-vzlu.onrender.com/orders', require('./routes/orderRoutes'));
-app.use('https://ecommerce-mern-stack-1-vzlu.onrender.com/payment', require('./routes/paymentRoutes'));
-app.use('https://ecommerce-mern-stack-1-vzlu.onrender.com/analytics', require('./routes/analyticsRoutes'));
+app.use("/api/auth", require("./routes/authRoutes"));
+app.use("/api/products",require("./routes/productRoutes"));
+app.use("/api/orders", require('./routes/orderRoutes'));
+app.use("/api/payment", require('./routes/paymentRoutes'));
+app.use("/api/analytics", require('./routes/analyticsRoutes'));
 
 // Serve frontend in production
 if (process.env.NODE_ENV === 'production') {

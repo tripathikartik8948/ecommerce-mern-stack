@@ -18,8 +18,8 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-brand">
         <Link to="/">
-          <img src="/ShopNestLogo.png" alt="ShopNest" style={{ height: '36px', width: '36px', borderRadius: '8px', objectFit: 'cover', filter: 'drop-shadow(0 2px 8px rgba(249, 115, 22, 0.35))' }} />
-          ShopNest
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDz19SW5ecnBitVCBdedO8-0IJoG6uozg8BHpqeipT9w&s" alt="Bazario" style={{ height: 'auto', width: '46px', borderRadius: '8px', objectFit: 'cover', filter: 'drop-shadow(0 2px 8px rgba(249, 115, 22, 0.35))' }} />
+          Bazario
         </Link>
       </div>
       <ul className="navbar-links">
